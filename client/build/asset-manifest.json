@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.105e7a26.css",
-    "main.js": "/static/js/main.fa65f11e.js",
-    "static/js/377.b33aecdb.chunk.js": "/static/js/377.b33aecdb.chunk.js",
+    "main.css": "/static/css/main.06e4b27c.css",
+    "main.js": "/static/js/main.7a1004c3.js",
     "static/media/Frame1.png": "/static/media/Frame1.8facd3b21cc409fe568f.png",
     "static/media/logo2.svg": "/static/media/logo2.0beaaee4cf44bac2d7a5cb9234d73bf8.svg",
-    "static/media/secondScrFlowers.svg": "/static/media/secondScrFlowers.fb82e64e7544504a5afe.svg",
+    "static/media/secondScrFlowers.svg": "/static/media/secondScrFlowers.4692b8fdbc8b5c2708ea.svg",
     "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
     "static/media/thirdScrBackM.png": "/static/media/thirdScrBackM.a5691d46846f6a71be79.png",
     "static/media/teacherThankTemplate.png": "/static/media/teacherThankTemplate.b3b9dbdca2f27c379820.png",
@@ -20,19 +19,18 @@
     "static/media/boyGirlM.png": "/static/media/boyGirlM.df35ee7423d4eb5889da.png",
     "static/media/flower_left.svg": "/static/media/flower_left.912d0b1e0c0502fd3ff73016d305afcd.svg",
     "static/media/children.png": "/static/media/children.e974d407e758c3adb57d.png",
-    "static/media/btnNimb.svg": "/static/media/btnNimb.a20b3102f0b87a7d688a.svg",
+    "static/media/btnNimb.svg": "/static/media/btnNimb.3bacd8aa9cb28c845ae6.svg",
     "static/media/boy.png": "/static/media/boy.3739dbf3cb9d685c6721.png",
     "static/media/girl.png": "/static/media/girl.b9e55293390ebeda1ef8.png",
-    "static/media/btnText.svg": "/static/media/btnText.4c80a512fd18a9ce88671bfe408fcf01.svg",
-    "static/media/background.svg": "/static/media/background.f40477407c220a90d711.svg",
+    "static/media/btnText.svg": "/static/media/btnText.838e2a2f36aa6a88535d2c47c6243c99.svg",
+    "static/media/background.svg": "/static/media/background.9089f3db5cc897762ad6.svg",
     "index.html": "/index.html",
-    "static/media/btnCountour.svg": "/static/media/btnCountour.e23350e6bc6e66c160a6.svg",
-    "main.105e7a26.css.map": "/static/css/main.105e7a26.css.map",
-    "main.fa65f11e.js.map": "/static/js/main.fa65f11e.js.map",
-    "377.b33aecdb.chunk.js.map": "/static/js/377.b33aecdb.chunk.js.map"
+    "static/media/btnCountour.svg": "/static/media/btnCountour.07049ac95ef06d998b1c.svg",
+    "main.06e4b27c.css.map": "/static/css/main.06e4b27c.css.map",
+    "main.7a1004c3.js.map": "/static/js/main.7a1004c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.105e7a26.css",
-    "static/js/main.fa65f11e.js"
+    "static/css/main.06e4b27c.css",
+    "static/js/main.7a1004c3.js"
   ]
 }
