@@ -1,0 +1,123 @@
+.thankyouForm {
+    min-height: 600px;
+    width: 1220px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 400;
+}
+
+.teacherGramotaTemplate {
+    min-width: 511px;
+    height: 724px;
+    background-image: url('../../img/pdfTeacher/teacherThankTemplate.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-5.25deg);
+    margin-bottom: 13px;
+}
+
+.teacherForm {
+    margin-top: 24px;
+
+}
+
+.teacherFormGroup {
+   min-width: 100px;
+}
+
+.teacherThankTitle {
+    font-family: 'Pribambas';
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #00ADEE;
+    padding-top: 150px;
+}
+
+.fieldsText {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 440px;
+    text-align: left;
+
+}
+
+
+.formFieldsContainer {
+    display: flex;
+    gap: 16px;
+}
+
+input {
+    
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #CFD4D9;
+    box-shadow: 0px 0px 0px #CBDAFC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 38px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    line-height: 21px;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.teacherImg {
+    background-image: url('../../img/pdfTeacher/teacher.png');
+    width: 190px;
+    height: 182px;
+    margin-left: auto;
+
+}
+
+.btnPrimary {
+    width: 198px;
+    height: 48px;
+    background: #E7E7E1;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Pribambas';
+    font-size: 25px;
+    color: #6C757D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.btnPrimary:hover {
+    background-color: #FF9670 !important;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .teacherImg,
+    .teacherGramotaTemplate {
+        display: none;
+    }
+
+    .teacherThankTitle {
+        margin: 0 auto;
+        padding-top: 0;
+        height: auto;
+    }
+    .fieldsText{
+        margin: 0 auto;
+        padding-top: 12px;
+    }
+
+    input {
+        border-radius: 24px;
+        height: 50px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+}

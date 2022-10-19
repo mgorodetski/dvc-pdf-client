@@ -1,0 +1,214 @@
+
+.formContainer {
+    margin: 0 auto;
+}
+
+.formContainerTeacher {
+    margin-top: 82px;
+}
+
+.secondScreen {
+    background: linear-gradient(0.5deg, #E8F5FB 23.68%, #FFFFFF 56.41%, #FFFFFF 102.23%);
+    background-repeat: no-repeat;
+    padding: 70px 40px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ScndScrPrehead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.backGrndLayer {
+    display: inherit;
+    height: 585px;
+    width: 1500px;
+    background-image: url('../../img/flowersSecondScr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.thankyouBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;   
+}
+
+.hashtag {
+    display: flex;
+    align-items: center;
+    max-width: 430px;
+
+}
+
+.hashtagText {
+    font-family: 'Pribambas';
+    /* font-weight: 700; */
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00ADEE;
+}
+
+.thankyouText {
+    max-width: 720px;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #181716;
+    z-index: 6;
+    font-family: 'Pribambas';
+}
+
+.thankyouForm {
+    min-height: 600px;
+    max-width: 1220px;
+    display: flex;
+    align-items: top;
+    gap: 16px;
+    padding: 0 15px 0 15px;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.teacherForm {
+    margin-top: 24px;
+}
+
+.formGroup {
+    width: 100%;
+}
+
+.thankTitle {
+    font-family: 'Pribambas';
+    font-size: 50px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #00ADEE;
+    margin-top: 24px;
+}
+
+.fieldsText {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 440px;
+    text-align: left;
+}
+
+
+
+input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #CFD4D9;
+    box-shadow: 0px 0px 0px #CBDAFC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 38px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.btnPrimary {
+    width: 198px;
+    height: 48px;
+    background: #E7E7E1;
+    border: none;
+    font-family: 'Pribambas';
+    font-size: 25px;
+    color: #6C757D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 4px;
+}
+
+
+.btnPrimary:hover {
+    background-color: #FF9670 !important;
+}
+
+.formContainer {
+    margin-bottom: 72px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 15px 0 15px;
+    font-weight: 400;
+}
+
+.gramotaMin {
+    display: none;
+    width: 350px;
+    height: 250px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1050px) {
+    .backGrndLayer {
+        height: auto;
+    }
+
+    .secondScreen {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../../img/secondScrFlowers.svg');
+       
+    }
+
+    .formContainer {
+        width: auto;
+        height: auto;
+        background-image: url('');
+        text-align: center;
+    }
+
+    .thankTeacher {
+        margin: 0 auto;
+    }
+
+    .teacherSecondScreen {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .gramotaMin {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+
+    .btnPrimary {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 520px) {
+    .hashtag {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+
+    }
+
+    hashtagText {
+        line-height: 1;
+    }
+}

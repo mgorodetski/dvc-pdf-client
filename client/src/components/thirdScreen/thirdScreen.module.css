@@ -1,0 +1,131 @@
+
+.thirdScreen {
+    background-image: url('../../img/thirdscreen/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+
+}
+
+.thirdScreenTeacher {
+    margin-top: -70px;
+}
+
+
+.disc {
+    width: 550px;
+    height: 100%;
+    padding: 36px;
+}
+
+.firstTitle {
+    font-family: 'Pribambas';
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-top: 42px;
+}
+
+.secondTitle {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8F5FB;
+
+}
+
+.thirdTitle {
+    padding-top: 16px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.detiImg {
+    height: 296px;
+    width: 419px;
+    align-self: center;
+}
+
+.secondSobrat {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8F5FB;
+    width: 350px;
+    padding-top: 16px;
+}
+
+
+.btnReversed {
+    width: 178px;
+    height: 48px;
+    background: #FF9670;
+    border: none;
+    font-family: 'Pribambas';
+    font-size: 25px;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    float: right;
+}
+
+.bgMin {
+    display: none;
+    height: 220px;
+    width: 220px;
+    background: transparent url(../../img/thirdscreen/children.png) center no-repeat;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .thirdScreen {
+        height: auto;
+        background-position: center;
+        padding-bottom: 40px;
+        background-size: cover;
+        flex-direction: column;
+        background-image: url('../../img/thirdscreen/thirdScrBackM.png');
+       
+    }
+
+    .disc {
+        /* padding: 48px 12px; */
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .bgMin {
+        display: block;
+    }
+
+    .thankKlass {
+        height: auto;
+    }
+
+    .detiImg {
+        display: none;
+    }
+
+    .btnReversed {
+        float: none;
+    }
+
+    .secondSobrat {
+        color: tomato;
+        width: auto;
+        height: auto;
+       
+    }
+}

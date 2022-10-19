@@ -1,0 +1,85 @@
+.btnLinkContainer {
+    display: grid;
+    /* background-color: rgb(133, 168, 168); */
+    grid-template-columns: 242px 1fr;
+    grid-template-rows: 240px 1fr;
+    /* border: 5px dotted black; */
+    max-width: 276px;
+}
+
+.child {
+    grid-area: 1 / 1;
+    /* opacity: 0.8; */
+
+}
+
+.btnNimb {
+    background-image: url('./img/btnNimb.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 270px;
+    display: block;
+}
+
+
+.btnCountour:hover+.btnNimb {
+    display: none;
+}
+
+
+
+
+.btnTextToggled {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 105px;
+    width: 131px;
+    
+}
+
+
+
+.btnCountour {
+    width: 230px;
+    background-image: url('./img/btnCountour.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 16px;
+    margin-left: 16px;
+    display: block;
+}
+
+.btnCountour:hover+.btnText {
+    display: none;
+}
+
+
+
+.btnCountourToggled {
+    width: 230px;
+    background-image: url('./img/btnCountour.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 16px;
+    margin-left: 16px;
+    display: none;
+}
+
+.btnCountour:hover+.btnTextToggled{
+    display: block; 
+}
+
+.btnText {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 105px;
+    width: 131px;
+}
+
+
+
+
+/* .btnText:hover {
+    background-color: #FF9670;
+} */

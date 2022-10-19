@@ -1,0 +1,127 @@
+.firstScreen {
+    min-height: 550px;
+    background-image: url('../../img/Frame1.png');
+    padding-top: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: radial-gradient(rgba(255, 255, 255, 0.51) 0% #0791DE 100%);
+    background-size: cover;
+}
+
+.heroes {
+    max-width: 627px;
+    height: 230px;
+    margin: 0 auto 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.heroes div {
+    /* background: transparent center no-repeat; */
+    background-size: contain;
+}
+
+.heroes .titleBg {
+    width: 270px;
+    height: 230px;
+    background: none;
+    margin: 0 10px;
+}
+
+.titleBg:hover {
+    box-shadow: 10px 5px 5px red;
+}
+
+.heroes .girl {
+    width: 89px;
+    height: 135px;
+    background-image: url(../../img/girl.png);
+
+}
+
+.heroes .boy {
+    width: 106px;
+    height: 128px;
+    background-image: url(../../img/boy.png);
+}
+.boy{
+    margin-left: 10px;
+}
+
+.bannerTitle {
+    font-family: 'Pribambas';
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.boyGirlM {
+    display: none;
+}
+
+.btnNimb {
+    background-image: url(../../img/btnNimb.svg);
+    background-repeat: no-repeat;
+    /* position: relative; */
+    padding-left: auto;
+    background-position: center;
+}
+
+.btnNimb:hover {
+    
+}
+
+.dvcBtn:hover {
+    display: block;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .firstScreen {
+        padding: 0;
+        background-image: url('../../img/flowersM.png');
+        background-repeat: no-repeat;
+        background-color: rgba(89, 200, 253, 1);
+        min-width: 410px;
+        min-height: 650px;
+
+    }
+
+    .heroes {
+        flex-wrap: wrap;
+        height: auto;
+
+    }
+
+
+
+    .boy {
+        display: none;
+    }
+
+    .girl {
+        display: none;
+    }
+
+    .boyGirlM {
+        display: block;
+        margin: auto;
+    }
+
+    .bannerTitle {
+        padding-top: 38px;
+    }
+
+    @media screen and (max-width: 520px) {
+
+    }
+
+}
