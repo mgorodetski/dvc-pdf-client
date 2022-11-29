@@ -139,7 +139,7 @@ const styles = {
     },
 };
 
-const PdfGramota = (props) => {
+const KlassPdf = (props) => {
     const [queryState, setQuery] = useState({});
     useEffect(() => {
         let query = queryString.parse(props.location && props.location.search);
@@ -241,4 +241,4 @@ const PdfGramota = (props) => {
     );
 };
 
-export default PdfGramota;
+export default KlassPdf;

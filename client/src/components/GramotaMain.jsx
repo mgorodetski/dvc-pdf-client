@@ -1,10 +1,10 @@
 import React from 'react'
-import FirstScreen from './firstScreen/FirstScreen'
-import SecondScreen from './secondScreen/SecondScreen'
-import ThirdScreen from './thirdScreen/ThirdScreen';
+import FirstScreen from './firstScreen'
+import SecondScreen from './secondScreen'
+import ThirdScreen from './thirdScreen';
 
 import '../App.css'
-import Footer from './footer/Footer';
+import Footer from './footer';
 
 
 const GramotaMain = () => {

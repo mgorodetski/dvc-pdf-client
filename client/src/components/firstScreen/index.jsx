@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../header/Header';
+import Header from '../header';
 import style from './firstScreen.module.css';
 import boyGirlM from '../../img/boyGirlM.png';
-import BtnLinkHead from '../btnLinkHead/BtnLinkHead.jsx';
+import BtnLinkHead from '../btnLinkHead/index.jsx';
 
 const FirstScreen = () => {
 

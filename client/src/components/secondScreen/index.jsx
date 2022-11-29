@@ -1,8 +1,8 @@
 import React from 'react';
 import flowerLeft from '../../img/flower_left.svg';
 import flowerRight from '../../img/flower_right.svg';
-import KlassForm from '../klassForm/KlassForm';
-import TeacherForm from '../teacherForm/TeacherForm';
+import KlassForm from '../klassForm';
+import TeacherForm from '../teacherForm';
 import style from './secondScreen.module.css';
 import gramotaMin from '../../img/pdfGramota/gramota_min.png';
 

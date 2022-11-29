@@ -3,7 +3,7 @@ import style from '../secondScreen/secondScreen.module.css';
 import formStyle from './klassForm.module.css';
 import axios from 'axios';
 
-const GramotaForm = () => {
+const KlassForm = () => {
     const [city, setCity] = useState('');
     const [klass, setKlass] = useState('');
     const [school, setSchool] = useState('');
@@ -84,4 +84,4 @@ const GramotaForm = () => {
     )
 }
 
-export default GramotaForm
+export default KlassForm
