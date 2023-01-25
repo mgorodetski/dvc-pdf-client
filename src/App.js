@@ -13,7 +13,7 @@ function App() {
     <div>
       <BrowserRouter>
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact component={TeacherThankMain} />
             <Route path="/spasibo-klass" exact component={GramotaMain} />
             <Route path="/spasibo-uchitel" exact component={TeacherThankMain} />
             <Route path="/teacher-pdf" exact component={TeacherPdf} />
