@@ -15,7 +15,7 @@ const KlassForm = () => {
     const handleChangeYears = event => setYears(event.target.value);
 
     const pdfHandler = () => {
-        const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-klass-pdf' : 'https://rocky-hamlet-62364.herokuapp.com/create-klass-pdf';
+        const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-klass-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-klass-pdf';
         axios.post(devUrl, { city, klass, school, years },
             {
                 responseType: 'arraybuffer',

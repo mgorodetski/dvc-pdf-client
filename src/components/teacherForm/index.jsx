@@ -5,7 +5,7 @@ import axios from 'axios';
 const TeacherForm = () => {
     const [name, setName] = useState('');
     const handleChangeName = event => setName(event.target.value);
-    const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-teacher-pdf' : 'https://rocky-hamlet-62364.herokuapp.com/create-teacher-pdf';
+    const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-teacher-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-teacher-pdf';
     const pdfHandler = () => {
         axios.post(devUrl, { name },
             {
