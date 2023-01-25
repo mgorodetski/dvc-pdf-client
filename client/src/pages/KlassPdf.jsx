@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import queryString from "query-string";
+import frame from "../img/pdfGramota/pomogaemFrame.png"
 
 const styles = {
     pdfGramotaContainer: {
         fontFamily: "PT Sans",
         color: "#231F20",
         maxHeight: "210mm",
-        
+
     },
 
     pdfGramotaBluebg: {
@@ -15,28 +16,14 @@ const styles = {
         marginRight: "10mm",
     },
 
-    pdfGramotaPomogaem: {
-        fontFamily: "Pribambas",
-        fontSize: "34px",
-        color: "#F9FDFF",
-        transform: "rotate(-9.07deg)",
-        paddingLeft: "820px",
-        maxWidth: "fit-content",
-        marginTop: "-40px",
-        position: "fixed",
-    },
-
     pdfGramotaText: {
-        fontFamily: "PT Sans",
-        fontSize: "14px",
         color: "#231F20",
         display: "flex",
         flexDirection: "column",
-        alignItems: "flex-start",
     },
 
     pdfGramotaPrehead: {
-        fontSize: "24px",
+        fontSize: "1.5rem",
         color: "#231F20",
         marginTop: "155px",
     },
@@ -137,6 +124,31 @@ const styles = {
         paddingLeft: "200px",
         paddingBottom: "32px",
     },
+
+    pomogaemFrame: {
+        position: "relative",
+        left: "780px",
+        top: "-110px",
+        width: "252px",
+    },
+
+    pomogaemBack: {
+        width: "250px",
+        // position: "relative",
+    },
+
+    pdfGramotaPomogaem: {
+        fontFamily: "Pribambas",
+        fontSize: "2.3rem",
+        color: "#F9FDFF",
+        transform: "rotate(-9.07deg)",
+        maxWidth: "fit-content",
+        position: "absolute",
+        top: "14px",
+        left: "0",
+        right: "0",
+        margin: "auto"
+    },
 };
 
 const KlassPdf = (props) => {
@@ -170,17 +182,21 @@ const KlassPdf = (props) => {
     return (
         <div className="super-main" style={styles.pdfGramotaContainer}>
             <img
-                src="https://i.postimg.cc/DzTx4TXZ/headerblue.png"
+                src="https://i.postimg.cc/90K6GKNb/headerblue.png"
                 style={styles.pdfTeacherHeaderImg}
                 alt=""
-            ></img>
+            />
 
             <div style={styles.pdfGramotaBluebg}>
-                <div style={styles.pdfGramotaPomogaem}>
-                    {queryState.years > 0
-                        ? `Помогаем ${queryState.years} ${ageWord}!`
-                        : "1 сентября"}
+                <div style={styles.pomogaemFrame}>
+                    <img src="https://i.postimg.cc/kX8JTvFG/pomogaem-Frame.png" style={styles.pomogaemBack} alt="" />
+                    <div style={styles.pdfGramotaPomogaem}>
+                        {queryState.years > 0
+                            ? `Помогаем ${queryState.years} ${ageWord}!`
+                            : "1 сентября"}
+                    </div>
                 </div>
+
                 <div style={styles.pdfGramotaText}>
                     <div style={styles.pdfGramotaPrehead}>
                         Участникам благотворительной акции

@@ -17,11 +17,11 @@ const Home = () => {
         backgroundColor: "#58CAFF",
         fontStyle: "italic",
       }}>
-      <a href="https://dvc-2022.herokuapp.com/spasibo-uchitel">Spasibo Uchitel</a>
-        <a href="https://dvc-2022.herokuapp.com/spasibo-klass">Spasibo Klass</a>
+      {/* <a href="https://dvc-2022.herokuapp.com/spasibo-uchitel">Spasibo Uchitel</a>
+        <a href="https://dvc-2022.herokuapp.com/spasibo-klass">Spasibo Klass</a> */}
 
-      {/* <a href="http://localhost:3000/spasibo-uchitel" style={{color: "tomato"}}>Спасибо учитель</a>
-      <a href="http://localhost:3000/spasibo-klass" style={{color: "white"}}>Спасибо класс</a> */}
+      <a href="http://localhost:3000/spasibo-uchitel" style={{color: "tomato"}}>Спасибо учитель</a>
+      <a href="http://localhost:3000/spasibo-klass" style={{color: "white"}}>Спасибо класс</a>
 
       {/* <BtnLinkHead /> */}
     </div>
@@ -29,4 +29,3 @@ const Home = () => {
 }
 
 export default Home;
-
