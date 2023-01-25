@@ -127,16 +127,16 @@ const styles = {
         position: "relative",
         left: "780px",
         top: "-110px",
-        width: "252px",
+        width: "262px",
     },
 
     pomogaemBack: {
-        width: "250px",
+        width: "260px",
     },
 
     pdfGramotaPomogaem: {
         fontFamily: "Pribambas",
-        fontSize: "2.3rem",
+        fontSize: "2rem",
         color: "#F9FDFF",
         transform: "rotate(-9.07deg)",
         maxWidth: "fit-content",
