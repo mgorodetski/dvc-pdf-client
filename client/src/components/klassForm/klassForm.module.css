@@ -22,7 +22,7 @@
     line-height: 50px;
     max-width: 440px;
     text-transform: uppercase;
-    color: #00ADEE;
+    color: var(--blue-3);
     text-align: center;
 }
 
@@ -32,7 +32,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #000000;
+    color: var(--black-main);
     max-width: 440px;
    
 }
@@ -44,8 +44,8 @@ input {
     margin: 8px 0;
     display: inline-block;
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #CFD4D9;
-    box-shadow: 0px 0px 0px #CBDAFC;
+    border: 1px solid var(--grey-1);
+    box-shadow: 0px 0px 0px var(--blue-4);
     border-radius: 5px;
     box-sizing: border-box;
     height: 38px;

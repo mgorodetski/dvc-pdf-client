@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import queryString from "query-string";
-import frame from "../img/pdfGramota/pomogaemFrame.png"
 
 const styles = {
     pdfGramotaContainer: {
         fontFamily: "PT Sans",
         color: "#231F20",
         maxHeight: "210mm",
-
     },
 
     pdfGramotaBluebg: {
@@ -134,7 +132,6 @@ const styles = {
 
     pomogaemBack: {
         width: "250px",
-        // position: "relative",
     },
 
     pdfGramotaPomogaem: {

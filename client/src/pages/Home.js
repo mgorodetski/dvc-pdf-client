@@ -14,7 +14,7 @@ const Home = () => {
         alignItems: 'center',
         height: "600px",
         width: "100%",
-        backgroundColor: "#58CAFF",
+        backgroundColor: "var(--blue-2)",
         fontStyle: "italic",
       }}>
       {/* <a href="https://dvc-2022.herokuapp.com/spasibo-uchitel">Spasibo Uchitel</a>

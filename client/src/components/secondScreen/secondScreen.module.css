@@ -8,7 +8,7 @@
 }
 
 .secondScreen {
-    background: linear-gradient(0.5deg, #E8F5FB 23.68%, #FFFFFF 56.41%, #FFFFFF 102.23%);
+    background: linear-gradient(0.5deg, #E8F5FB 23.68%, var(--white-main) 56.41%, var(--white-main) 102.23%);
     background-repeat: no-repeat;
     padding: 70px 40px 0px;
     align-items: center;
@@ -48,12 +48,11 @@
 
 .hashtagText {
     font-family: 'Pribambas';
-    /* font-weight: 700; */
     font-size: 25px;
     line-height: 28px;
     text-align: center;
     text-decoration-line: underline;
-    color: #00ADEE;
+    color: var(--blue-3);
 }
 
 .thankyouText {
@@ -61,7 +60,7 @@
     font-size: 30px;
     line-height: 32px;
     text-align: center;
-    color: #181716;
+    color: var(--black-1);
     z-index: 6;
     font-family: 'Pribambas';
 }
@@ -91,14 +90,14 @@
     font-size: 50px;
     line-height: 51px;
     text-transform: uppercase;
-    color: #00ADEE;
+    color: var(--blue-3);
     margin-top: 24px;
 }
 
 .fieldsText {
     font-size: 20px;
     line-height: 28px;
-    color: #000000;
+    color: var(--black-main);
     max-width: 440px;
     text-align: left;
 }
@@ -108,8 +107,8 @@
 input {
     width: 100%;
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #CFD4D9;
-    box-shadow: 0px 0px 0px #CBDAFC;
+    border: 1px solid var(--grey-1);
+    box-shadow: 0px 0px 0px var(--blue-4);
     border-radius: 5px;
     box-sizing: border-box;
     height: 38px;
@@ -124,11 +123,12 @@ fieldset {
 .btnPrimary {
     width: 198px;
     height: 48px;
-    background: #E7E7E1;
+    background: var(--grey-3);
     border: none;
+    outline: none;
     font-family: 'Pribambas';
     font-size: 25px;
-    color: #6C757D;
+    color: var(--grey-2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,8 +138,18 @@ fieldset {
 
 
 .btnPrimary:hover {
-    background-color: #FF9670 !important;
+    background-color: var(--blue-4);
+    outline: none;
 }
+
+.btnPrimary:active {
+    transform: scale(0.95);
+    background-color: tomato;
+    color: var(--white-main);
+    outline: none;
+    border: none;
+}
+
 
 .formContainer {
     margin-bottom: 72px;

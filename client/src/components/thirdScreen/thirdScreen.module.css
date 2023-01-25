@@ -26,7 +26,7 @@
     font-family: 'Pribambas';
     font-style: normal;
     font-size: 50px;
-    color: #FFFFFF;
+    color: var(--white-main);
     padding-top: 42px;
 }
 
@@ -44,7 +44,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: var(--white-main);
 }
 
 .detiImg {
@@ -71,7 +71,7 @@
     border: none;
     font-family: 'Pribambas';
     font-size: 25px;
-    color: #FFFFFF;
+    color: var(--white-main);
     display: flex;
     border-radius: 4px;
     justify-content: center;

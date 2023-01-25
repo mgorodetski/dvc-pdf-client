@@ -24,7 +24,7 @@
     font-family: 'PT Sans';
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: var(--white-main);
 }
 
 .footerLink {
@@ -33,14 +33,14 @@
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-main);
 }
 
 .footerEmail {
     font-family: 'PT Sans';
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: var(--white-main);
     text-align: right;
 }
 

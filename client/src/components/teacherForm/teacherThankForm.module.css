@@ -31,7 +31,7 @@
     font-size: 50px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #00ADEE;
+    color: var(--blue-3);
     padding-top: 150px;
 }
 
@@ -39,7 +39,7 @@
     font-family: 'PT Sans';
     font-size: 20px;
     line-height: 28px;
-    color: #000000;
+    color: var(--black-main);
     max-width: 440px;
     text-align: left;
 
@@ -54,8 +54,8 @@
 input {
     
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #CFD4D9;
-    box-shadow: 0px 0px 0px #CBDAFC;
+    border: 1px solid var(--grey-1);
+    box-shadow: 0px 0px 0px var(--blue-4);
     border-radius: 5px;
     box-sizing: border-box;
     height: 38px;
@@ -79,21 +79,31 @@ fieldset {
 .btnPrimary {
     width: 198px;
     height: 48px;
-    background: #E7E7E1;
+    background: var(--grey-3);
     border: none;
-    border-radius: 4px;
+    outline: none;
     font-family: 'Pribambas';
     font-size: 25px;
-    color: #6C757D;
+    color: var(--grey-2);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
+    border-radius: 4px;
 }
 
 
 .btnPrimary:hover {
-    background-color: #FF9670 !important;
+    background-color: var(--blue-4);
+    outline: none;
+}
+
+.btnPrimary:active {
+    transform: scale(0.95);
+    background-color: tomato;
+    color: var(--white-main);
+    outline: none;
+    border: none;
 }
 
 
