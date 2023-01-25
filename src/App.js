@@ -1,6 +1,6 @@
 import './index.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import TeacherPdf from './pages/TeacherPdf';
 import GramotaMain from './pages/GramotaMain';
 import KlassPdf from './pages/KlassPdf';
@@ -15,7 +15,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={TeacherThankMain} />
             <Route path="/spasibo-klass" exact component={GramotaMain} />
-            <Route path="/spasibo-uchitel" exact component={TeacherThankMain} />
+            {/* <Route path="/spasibo-uchitel" exact component={TeacherThankMain} /> */}
             <Route path="/teacher-pdf" exact component={TeacherPdf} />
             <Route path="/klass-pdf" exact component={KlassPdf}/>
           </Switch> 
