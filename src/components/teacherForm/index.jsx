@@ -7,7 +7,7 @@ const TeacherForm = () => {
     const handleChangeName = event => setName(event.target.value);
     const devUrl = 'https://incredible-pavlova-0dc5fd.netlify.app/create-teacher-pdf';
     // const devUrl = 'http://localhost:3000/create-teacher-pdf';
-    // const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-teacher-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-teacher-pdf';
+    // const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:3000/create-teacher-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-teacher-pdf';
     const pdfHandler = () => {
         axios.post(devUrl, { name },
             {
