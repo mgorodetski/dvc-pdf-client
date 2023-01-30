@@ -23,7 +23,7 @@ const styles = {
     pdfGramotaPrehead: {
         fontSize: "1.5rem",
         color: "#231F20",
-        marginTop: "155px",
+        marginTop: "115px",
     },
 
     pdfGramotaHead: {
@@ -141,7 +141,7 @@ const styles = {
         transform: "rotate(-9.07deg)",
         maxWidth: "fit-content",
         position: "absolute",
-        top: "14px",
+        top: "24px",
         left: "0",
         right: "0",
         margin: "auto"
@@ -153,7 +153,6 @@ const KlassPdf = (props) => {
     useEffect(() => {
         let query = queryString.parse(props.location && props.location.search);
         setQuery(query);
-        console.log(query);
     }, [props.location]);
 
     const ageWord = ageToStr(queryState.years);
