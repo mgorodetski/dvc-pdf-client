@@ -16,7 +16,7 @@ const KlassForm = () => {
 
     const pdfHandler = () => {
         // const devUrl = 'http://localhost:3000/create-klass-pdf';
-        const devUrl = 'https://incredible-pavlova-0dc5fd.netlify.app/create-klass-pdf';
+        const devUrl = 'https://dvc-server.herokuapp.com/create-klass-pdf';
         // const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:8080/create-klass-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-klass-pdf';
         axios.post(devUrl, { city, klass, school, years },
             {
