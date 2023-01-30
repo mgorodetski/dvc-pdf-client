@@ -17,8 +17,8 @@ const Home = () => {
         backgroundColor: "var(--blue-2)",
         fontStyle: "italic",
       }}>
-      <a href="https://heroic-otter-9164ca.netlify.app/spasibo-uchitel" style={{color: "tomato"}}>Spasibo Uchitel</a>
-      <a href="https://heroic-otter-9164ca.netlify.app/spasibo-klass" style={{color: "white"}}>Spasibo Klass</a>
+      <a href="https://dvc2023.netlify.app/spasibo-uchitel" style={{color: "tomato"}}>Spasibo Uchitel</a>
+      <a href="https://dvc2023.netlify.app/spasibo-klass" style={{color: "white"}}>Spasibo Klass</a>
 
       {/* <a href="http://localhost:3000/spasibo-uchitel" style={{color: "tomato"}}>Спасибо учитель</a>
       <a href="http://localhost:3000/spasibo-klass" style={{color: "white"}}>Спасибо класс</a> */}
