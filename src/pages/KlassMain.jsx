@@ -7,7 +7,7 @@ import '../index.css'
 import Footer from '../components/footer';
 
 
-const GramotaMain = () => {
+const KlassMain = () => {
     return (
         <div className='container'>
             <FirstScreen />
@@ -17,4 +17,4 @@ const GramotaMain = () => {
         </div>
     )
 }
-export default GramotaMain
+export default KlassMain

@@ -35,6 +35,7 @@
     --white-main: #FFFFFF;
 }
 
+
 html {
     box-sizing: border-box;
 }
@@ -42,7 +43,7 @@ html {
 
 body {
     margin: 0 auto;
-    
+    line-height: 1.1;
 }
 
 .container {

@@ -31,7 +31,6 @@ const TeacherSecondScreen = () => {
                 </div>
             </div>
             <img src={gramotaMin} className={`${style.gramotaMin}`} alt=""></img>
-
         </div>
     )
 }

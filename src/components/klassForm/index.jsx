@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from '../secondScreen/secondScreen.module.css';
 import formStyle from './klassForm.module.css';
 import axios from 'axios';
+import KlassPdfPreview from '../klassPdfPreview';
 
 const KlassForm = () => {
     const [city, setCity] = useState('');
@@ -29,6 +30,7 @@ const KlassForm = () => {
                 const blob = new Blob([response.data], { type: 'application/pdf' })
                 const link = document.createElement('a')
                 link.href = window.URL.createObjectURL(blob)
+                console.log(link.href);
                 link.download = `SpasiboKlass_DVC2022.pdf`
                 link.click();
                 setCity('');
@@ -41,7 +43,9 @@ const KlassForm = () => {
 
     return (
         <div className={`${formStyle.thankYouForm}`}>
-            <div className={`${formStyle.gramotaTemplate}`} />
+
+                <KlassPdfPreview school={school} klass={klass} city={city} years={years}/>
+
             <div className={`${formStyle.thankKlass}`}>
                 <h3 className={`${formStyle.thankTitle}`}>В БЛАГОДАРНОСТЬ КЛАССУ</h3>
                 <p className={`${formStyle.fieldsText}`}>
@@ -75,10 +79,9 @@ const KlassForm = () => {
                         <input onChange={handleChangeCity} value={city} maxLength="25" name="city" type="text" placeholder="Город" className={`${formStyle.formControl}`} />
                     </div>
 
-                    <button type="button" onClick={pdfHandler} className={`${style.btnPrimary}`}><span>↓</span><span>сохранить в pdf</span></button>
-
+                    <button type="button" onClick={pdfHandler} className={`${style.btnPrimary}`}><span>↓</span><span>сохранить в pdf</span>
+                    </button>
                 </form>
-
             </div>
         </div>
 
