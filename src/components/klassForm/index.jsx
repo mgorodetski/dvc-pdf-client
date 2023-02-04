@@ -43,8 +43,9 @@ const KlassForm = () => {
 
     return (
         <div className={`${formStyle.thankYouForm}`}>
-
-                <KlassPdfPreview school={school} klass={klass} city={city} years={years}/>
+            <div className={formStyle.gramotaTemplate}>
+                <KlassPdfPreview school={school} klass={klass} city={city} years={years} />
+            </div>
 
             <div className={`${formStyle.thankKlass}`}>
                 <h3 className={`${formStyle.thankTitle}`}>В БЛАГОДАРНОСТЬ КЛАССУ</h3>

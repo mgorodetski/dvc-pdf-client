@@ -9,7 +9,6 @@
 .gramotaTemplate {
     min-width: 540px;
     height: 382px;
-    /* background-image: url('../../img/gramotaTemplate2.png'); */
     background-repeat: no-repeat;
     margin: 0 auto;
 }
@@ -38,7 +37,6 @@
 
 
 input {
-    /* width: 100%; */
     padding: 12px 20px 12px 12px;
     margin: 8px 0;
     display: inline-block;
