@@ -87,14 +87,14 @@ const styles = {
 
 const KlassPdfPreview = (props) => {
     const ageWord = ageToStr(props.years);
-    
 
-    function renderWithTimeOut(value) {
-        const timer = setTimeout(() => {
-            return value;
-        }, 1000);
-        clearTimeout(timer);
-    }
+
+    // function renderWithTimeOut(value) {
+    //     const timer = setTimeout(() => {
+    //         return value;
+    //     }, 1000);
+    //     clearTimeout(timer);
+    // }
 
     function ageToStr(age) {
         let txt = "";
