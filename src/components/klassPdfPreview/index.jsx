@@ -89,13 +89,6 @@ const KlassPdfPreview = (props) => {
     const ageWord = ageToStr(props.years);
 
 
-    // function renderWithTimeOut(value) {
-    //     const timer = setTimeout(() => {
-    //         return value;
-    //     }, 1000);
-    //     clearTimeout(timer);
-    // }
-
     function ageToStr(age) {
         let txt = "";
         let count = age % 100;
@@ -138,7 +131,7 @@ const KlassPdfPreview = (props) => {
                     </div>
                     <div style={styles.pdfGramotaHead}>"ДЕТИ ВМЕСТО ЦВЕТОВ - 2023"</div>
                     <div style={styles.pdfGramotaKlazz}>
-                        {props.klass} класс, {props.school} школа,  г. {props.city}
+                        {props.klass} класс, школа {props.school},  г. {props.city}
                     </div>
                     <div style={styles.pdfGramotaSubhead}>
                         Спасибо, что вместе с Фондами «Вера» и «Дом с маяком» вы помогаете

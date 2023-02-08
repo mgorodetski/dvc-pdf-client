@@ -10,10 +10,36 @@ const KlassForm = () => {
     const [school, setSchool] = useState('');
     const [years, setYears] = useState(0);
 
-    const handleChangeCity = event => setCity(event.target.value);
-    const handleChangeKlass = event => setKlass(event.target.value);
-    const handleChangeSchool = event => setSchool(event.target.value);
-    const handleChangeYears = event => setYears(event.target.value);
+    const [cityDelayed, setCityDelayed] = useState('');
+    const [klassDelayed, setKlassDelayed] = useState('');
+    const [schoolDelayed, setSchoolDelayed] = useState('');
+    const [yearsDelayed, setYearsDelayed] = useState(0);
+
+    const handleChangeCity = event => {
+        setCity(event.target.value);
+        setTimeout(() => {
+            setCityDelayed(event.target.value);
+        }, 1000);
+    }
+    const handleChangeKlass = event => {
+        setKlass(event.target.value);
+        setTimeout(() => {
+            setKlassDelayed(event.target.value);
+        }, 1000);
+    };
+    
+    const handleChangeSchool = event => {
+        setSchool(event.target.value);
+        setTimeout(() => {
+            setSchoolDelayed(event.target.value);
+        }, 1000);
+    };
+    const handleChangeYears = event => {
+        setYears(event.target.value);
+        setTimeout(() => {
+            setYearsDelayed(event.target.value);
+        }, 1000);
+    };
 
     const pdfHandler = () => {
         // const devUrl = 'http://localhost:3000/create-klass-pdf';
@@ -44,7 +70,7 @@ const KlassForm = () => {
     return (
         <div className={`${formStyle.thankYouForm}`}>
             <div className={formStyle.gramotaTemplate}>
-                <KlassPdfPreview school={school} klass={klass} city={city} years={years} />
+                <KlassPdfPreview school={schoolDelayed} klass={klassDelayed} city={cityDelayed} years={yearsDelayed} />
             </div>
 
             <div className={`${formStyle.thankKlass}`}>

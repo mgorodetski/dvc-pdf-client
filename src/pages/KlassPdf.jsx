@@ -23,7 +23,7 @@ const styles = {
     pdfGramotaPrehead: {
         fontSize: "1.5rem",
         color: "#231F20",
-        marginTop: "115px",
+        marginTop: "85px",
     },
 
     pdfGramotaHead: {
@@ -44,14 +44,14 @@ const styles = {
         fontWeight: 700,
         fontSize: "24px",
         color: "#231F20",
-        lineHeight: "150%"
+        lineHeight: "130%"
     },
 
     pdfGramotaContent: {
         fontFamily: "PT Sans",
         fontSize: "24px",
         color: "#231F20",
-        lineHeight: "140%"
+        lineHeight: "130%"
     },
 
     pdfGramotaThankAlways: {
@@ -199,7 +199,7 @@ const KlassPdf = (props) => {
                     </div>
                     <div style={styles.pdfGramotaHead}>"ДЕТИ ВМЕСТО ЦВЕТОВ - 2023"</div>
                     <div style={styles.pdfGramotaKlazz}>
-                        {queryState.klass} класс, {queryState.school} школа,  г. {queryState.city}
+                        {queryState.klass} класс, школа {queryState.school},  г. {queryState.city}
                     </div>
                     <div style={styles.pdfGramotaSubhead}>
                         Спасибо, что вместе с Фондами «Вера» и «Дом с маяком» вы помогаете
