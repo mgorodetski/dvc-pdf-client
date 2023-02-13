@@ -141,7 +141,7 @@ const styles = {
         transform: "rotate(-9.07deg)",
         maxWidth: "fit-content",
         position: "absolute",
-        top: "24px",
+        top: "25%",
         left: "0",
         right: "0",
         margin: "auto"
@@ -187,9 +187,10 @@ const KlassPdf = (props) => {
                 <div style={styles.pomogaemFrame}>
                     <img src="https://i.postimg.cc/kX8JTvFG/pomogaem-Frame.png" style={styles.pomogaemBack} alt="" />
                     <div style={styles.pdfGramotaPomogaem}>
-                        {queryState.years > 0
-                            ? `Помогаем ${queryState.years} ${ageWord}!`
-                            : "1 сентября"}
+                        {/* {queryState.years > 0
+                            ? `помогаем ${queryState.years} ${ageWord}!`
+                            : "1 сентября"} */}
+                            помогаем 2 года
                     </div>
                 </div>
 
