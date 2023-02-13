@@ -187,10 +187,9 @@ const KlassPdf = (props) => {
                 <div style={styles.pomogaemFrame}>
                     <img src="https://i.postimg.cc/kX8JTvFG/pomogaem-Frame.png" style={styles.pomogaemBack} alt="" />
                     <div style={styles.pdfGramotaPomogaem}>
-                        {/* {queryState.years > 0
+                        {queryState.years > 0
                             ? `помогаем ${queryState.years} ${ageWord}!`
-                            : "1 сентября"} */}
-                            помогаем 2 года
+                            : "1 сентября"}
                     </div>
                 </div>
 
