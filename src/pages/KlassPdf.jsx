@@ -141,7 +141,7 @@ const styles = {
         transform: "rotate(-9.07deg)",
         maxWidth: "fit-content",
         position: "absolute",
-        top: "25%",
+        top: "50%",
         left: "0",
         right: "0",
         margin: "auto"
