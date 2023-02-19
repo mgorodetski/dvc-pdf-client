@@ -142,7 +142,7 @@ const styles = {
         maxWidth: "fit-content",
         position: "absolute",
         top: "34px",
-        left: "0",
+        left: "6px",
         right: "0",
         margin: "auto"
     },
