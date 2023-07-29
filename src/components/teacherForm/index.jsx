@@ -1,12 +1,12 @@
 import formStyle from '../teacherForm/teacherThankForm.module.css';
 import React, { useState } from 'react';
 import axios from 'axios';
+import { apiUrl } from '../../helpers/const';
 
 const TeacherForm = () => {
     const [name, setName] = useState('');
     const handleChangeName = event => setName(event.target.value);
-    const devUrl = 'https://dvc-server.herokuapp.com/create-teacher-pdf';
-    // const devUrl = 'http://localhost:3000/create-teacher-pdf';
+    const devUrl = `${apiUrl}/create-teacher-pdf`;
     // const devUrl = +process.env.REACT_APP_DEV ? 'http://localhost:3000/create-teacher-pdf' : 'https://incredible-pavlova-0dc5fd.netlify.app/create-teacher-pdf';
     const pdfHandler = () => {
         axios.post(devUrl, { name },
